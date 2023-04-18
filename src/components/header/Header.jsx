@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './header.css'
 
-export const Header = () => {
+const Header = () => {
   const [showMenu, setShowMenu] = useState( false );
 
   return (
@@ -61,3 +61,5 @@ export const Header = () => {
     </header>
   )
 }
+
+export default Header;
