@@ -55,7 +55,7 @@ const Header = () => {
         <div
           onClick={() => setShowMenu(!showMenu)}
           className="nav__toggle">
-          <i class="uil uil-apps"></i>
+          <i className="uil uil-apps"></i>
         </div>
       </nav>
     </header>
